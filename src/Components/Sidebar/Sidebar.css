@@ -2,6 +2,7 @@
     height: 100%;
     /* background-color: aquamarine; */
     border-right:2px solid rgb(206, 206, 206);
+    border-bottom:2px solid rgb(206, 206, 206);
     display: flex;
     flex-direction: column;
     /* align-items: center;    */
@@ -39,9 +40,24 @@
 }
 
 .sidebar-top1:hover , .sidebar-top2:hover , .sidebar-bottom1:hover{
-    background-color: rgb(234, 239, 252);
+   background-color: rgb(234, 239, 252);
+   color: rgb(40, 89, 223);
+   cursor: pointer;
+}
+
+.sidebar-top1-navlink{
+    text-decoration: none;
+    color:rgb(92, 94, 100);
+}
+
+.sidebar-top1-navlink.active{
+    /* background-color: rgb(234, 239, 252); */
     color: rgb(40, 89, 223);
     cursor: pointer;
+}
+
+.sidebar-top1-navlink.active div{
+        background-color: rgb(234, 239, 252);
 }
 
 .sidebar-top-content1{

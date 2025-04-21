@@ -56,7 +56,7 @@ const Table = () => {
       </tbody>
     </table>
     <div className="pagination-controls">
-      <button onClick={handlePrev} disabled={currentPage === 1}>
+      <button className="table-button" onClick={handlePrev} disabled={currentPage === 1}>
         Previous
       </button>
       <div className="pagination-pages">
@@ -70,7 +70,7 @@ const Table = () => {
           </button>
         ))}
       </div>
-      <button onClick={handleNext} disabled={currentPage === totalPages}>
+      <button className="table-button" onClick={handleNext} disabled={currentPage === totalPages}>
         Next
       </button>
     </div>

@@ -1,0 +1,23 @@
+.dashboard-main{
+    display: flex;
+    width:100%;
+    /* background-color: blueviolet; */
+}
+
+.dashboard-left{
+    width:15%;
+}
+
+.dashboard-right{
+    width:85%;
+}
+
+.dashboard-right-content{
+    /* background-color: rgb(224, 249, 194); */
+    height:100%;
+    width:100%;
+    padding:1vw 7vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}

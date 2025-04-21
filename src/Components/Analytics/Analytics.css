@@ -14,7 +14,7 @@
 }
 
 .analytics-top-left{
-    background-color: lightblue;
+    /* background-color: lightblue; */
     width:50%;
 }
 
@@ -37,4 +37,8 @@
     display:flex;
     align-items: center;
     justify-content: space-between ;
+    background-color: rgb(215, 244, 254);
+    padding:10px;
+    margin: 10px;
+    border-radius: 10px;
 }

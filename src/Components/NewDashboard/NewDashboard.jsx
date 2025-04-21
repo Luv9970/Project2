@@ -1,12 +1,13 @@
 import React, { useState } from 'react'
-import './Dashboard.css'
+import './NewDashboard.css'
 import Sidebar from '../Sidebar/Sidebar'
 import Navbar from '../Navbar/Navbar'
 import Content from '../Content/Content'
 import Filter from '../Filter/Filter'
 import Logoutpopup from '../Logoutpopup/Logoutpopup'
+import Analytics from '../Analytics/Analytics'
 
-const Dashboard = () => {
+const NewDashboard = () => {
 
 const [isVisible , setisVisible] = useState(false)
 
@@ -26,11 +27,11 @@ const togglevisibility = () => {
           </div>
 
           <div className='dashboard-right-content'>
-            <Content />
+            {/* <Content /> */}
     
             {/* <Filter/> */}
 
-            {/* <Analytics/> */}
+            <Analytics/>
             <Logoutpopup isVisible={isVisible} togglevisibility={togglevisibility}/>
           </div>
         </div>
@@ -38,4 +39,4 @@ const togglevisibility = () => {
   )
 }
 
-export default Dashboard
+export default NewDashboard

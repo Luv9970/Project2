@@ -6,9 +6,8 @@ import New_Revenue from '../../assets/New_Revenue.json'
 import Card from '../Card/Card'
 import Table from '../Table/Table'
 
-
 const Analytics = () => {
-  return (
+  return (<>
     <div className='analytics-main'>
         <div className='analytics-top'>
             <div className='analytics-top-left'>
@@ -40,6 +39,7 @@ const Analytics = () => {
         <Table/>
         </div>
     </div>
+    </>
   )
 }
 

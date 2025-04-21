@@ -3,6 +3,7 @@ import "./Sidebar.css";
 import { BiHome } from "react-icons/bi";
 import { GrAnalytics } from "react-icons/gr";
 import { IoSettingsOutline } from "react-icons/io5";
+import { NavLink } from "react-router-dom";
 
 
 
@@ -64,15 +65,21 @@ const Sidebar = ({togglevisibility}) => {
         <div className="sidebar-top">
 
             <p>Main</p>
+        
+           <NavLink to="/Dashboard" className="sidebar-top1-navlink">
             <div className="sidebar-top1">
                 <div className="sidebar-top-content1"><BiHome /></div>
                 <div className="sidebar-top-content2">Leads</div>
             </div>
+            </NavLink> 
+           
+
+            <NavLink to="/NewDashboard" className="sidebar-top1-navlink">
             <div className="sidebar-top2">
                 <div className="sidebar-top-content1"><GrAnalytics /></div>
                 <div className="sidebar-top-content2">Analytics</div>
             </div>
-
+            </NavLink>
         </div>
 
         <div className="sidebar-bottom">
