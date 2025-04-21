@@ -1,0 +1,28 @@
+.card-main{
+    /* background-color: rgb(222, 188, 254); */
+    background-color: white;
+    width:10vw;
+    height:10vw;
+    border:2px solid rgb(225, 225, 225);
+    border-radius: 10px;
+    padding:1vw;
+    font-size:1vw;
+    margin:1vw;
+    cursor:pointer;
+    transition: all 0.2s ease-in-out;
+}
+.card-main:hover{
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.2);
+}
+
+.card-main-middle{
+    margin-top:10px;
+    color:rgb(103, 103, 103);
+}
+
+.card-main-bottom{
+    margin-top:10px;
+    font-size: 1.2vw;
+    color:rgb(28,28,28);
+    font-weight: 600;
+}

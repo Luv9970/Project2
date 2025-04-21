@@ -1,0 +1,80 @@
+/* .filter-main{
+    position:fixed;
+    left:center;
+    top:center;
+    background-color: burlywood;
+} */
+
+
+
+.user-search-container {
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    font-family: sans-serif;
+  }
+  
+  .search-input-wrapper {
+    display: flex;
+    align-items: center;
+    padding: 8px 10px;
+    border-bottom: 1px solid #eee;
+    position: relative;
+  }
+  
+  .search-input-wrapper input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    padding: 6px 30px 6px 6px;
+  }
+  
+  .clear-btn {
+    position: absolute;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    color: #999;
+  }
+  
+  .user-list {
+    max-height: 220px;
+    overflow-y: auto;
+  }
+  
+  .user-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  
+  .user-item:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .user-item.selected {
+    background-color: #e6f0ff;
+  }
+  
+  .avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .checkmark {
+    margin-left: auto;
+    color: #007bff;
+    font-weight: bold;
+  }
+  

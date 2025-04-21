@@ -1,0 +1,97 @@
+.logout-fullscreen{
+    position:fixed;
+    background-color: rgba(0, 0, 0, 0.525);
+    height:100vh;
+    width:100vw;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+}
+
+.logoutpopup-main{
+    /* background-color: cadetblue; */
+    background-color: white;
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    width:30vw;
+    height:22vw;
+    border-radius: 10px;
+    padding:3vw 4vw;
+    box-shadow: 4px 4px 8px 2px rgba(0, 0, 0, 0.3);
+
+    position:fixed;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    z-index: 1000;
+
+
+}
+
+.logoutpopup-container{
+    height:100%;
+    /* background-color: tomato; */
+    display:flex;
+    flex-direction: column;
+    /* align-items: start; */
+    justify-content: space-between;
+}
+
+.logoutpopup-main-logo{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoutpopup-cross{
+    background-color: rgb(234, 239, 252);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:5px;
+    border-radius: 50%;
+    cursor:pointer;
+}
+
+.logoutpopup-main-buttton{
+    display:flex;
+    flex-direction: column;
+    /* background-color: aqua; */
+    width: 100%;
+}
+
+.logoutpopup-main-buttton1 , .logoutpopup-main-buttton2{
+    /* background-color: chartreuse; */
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:15px;
+    margin-top:15px;
+    border-radius: 10px;
+    cursor:pointer;
+}
+
+.logoutpopup-main-buttton1{
+    background-color: rgb(40, 89, 223);
+    color:white;
+}
+
+.logoutpopup-main-buttton1:hover{
+    background-color: rgb(28, 69, 183);
+    color:white;
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.2);
+}
+
+.logoutpopup-main-buttton2{
+    color:rgb(40, 89, 223);
+    border:2px solid rgb(40, 89, 223);
+}
+
+.logoutpopup-main-buttton2:hover{
+    background-color: rgb(224, 224, 224);
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.2);
+}
+
+.logoutpopup-main-buttton-navlink{
+    text-decoration: none;
+}

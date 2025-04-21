@@ -1,0 +1,29 @@
+.login-main{
+    height: 100vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    /* background-color: aquamarine; */
+    color:gray;
+}
+
+.login-container{ 
+    font-size: 10vw;
+}
+
+.login-text{
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.3s;
+}
+
+.login-text:hover{
+    cursor:pointer;
+    color:black;
+}
+
+.login-button{
+    text-decoration: none;
+    color:rgb(80, 80, 80);
+}

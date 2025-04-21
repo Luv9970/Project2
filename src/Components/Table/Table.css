@@ -1,0 +1,48 @@
+.user-table-container {
+    padding: 16px;
+    margin-top: 10px;
+  }
+  
+  .user-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+  }
+  
+  .user-table th,
+  .user-table td {
+    padding: 8px;
+    border-top: 1px solid #ddd;
+  }
+  
+
+  
+  
+  
+  
+ 
+  
+
+  
+  
+  .pagination-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+  }
+  
+  .pagination-pages button {
+    margin: 0 4px;
+    padding: 4px 8px;
+    border: none;
+    background-color: #f3f4f6;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .pagination-pages button.active {
+    background-color: #3b82f6;
+    color: white;
+  }
+  

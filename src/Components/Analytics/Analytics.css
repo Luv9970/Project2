@@ -1,0 +1,40 @@
+.analytics-main{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: blue; */
+}
+
+.analytics-top{
+    /* background-color: thistle; */
+    width:100%;
+    display: flex;
+
+}
+
+.analytics-top-left{
+    background-color: lightblue;
+    width:50%;
+}
+
+.analytics-top-right{
+    /* background-color: lightgreen; */
+    width:50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    /* padding: */
+}
+
+.analytics-bottom{
+    /* background-color: tomato; */
+    width:100%;
+}
+
+.analytics-graph1 , .analytics-graph2{
+    display:flex;
+    align-items: center;
+    justify-content: space-between ;
+}
